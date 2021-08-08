@@ -1,0 +1,708 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1440px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* page */
+
+body {
+    width: 1440px;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.navigation-list li {
+    /* width: 94px; */
+    height: 13px;
+    font-family: Barlow;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.75);
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.navigate {
+    width: 1440px;
+    height: 54px;
+    background-color: #464813;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigate li {
+    height: 14px;
+    font-family: Barlow;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.87);
+    letter-spacing: 1px;
+}
+
+.hero1 {
+    /* width: 1440px; */
+    width: 1440px;
+    height: 628px;
+    background-color: #ffffff;
+    background-image: url('../image/cytecare/box-2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: scaleX(-1); */
+    position: relative;
+}
+
+.appointment {
+    width: 606px;
+    height: 430px;
+    border-left-width: 10px;
+    border-style: solid;
+    border-color: #a89c4f;
+    background-color: #ffffff;
+    background-size: cover;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-head {
+    width: 432px;
+    height: 136px;
+    font-family: Barlow;
+    font-size: 60px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.87);
+    line-height: 68px;
+}
+
+.app-des {
+    width: 432px;
+    height: 51px;
+    font-family: Barlow;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.6);
+    line-height: 26px;
+}
+
+.appointment h6 {
+    width: 335px;
+    height: 62px;
+    border: 2px solid #a89c4f;
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-btn {
+    width: 292px;
+    height: 16px;
+    font-family: Barlow;
+    font-size: 14px;
+    color: #a89c4f;
+    text-decoration: none solid rgb(168, 156, 79);
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero2 {
+    display: flex;
+    width: 1440px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero2-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.hero2-des h1 {
+    width: 500px;
+    height: 28px;
+    font-family: Barlow;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.87);
+    letter-spacing: 1px;
+}
+
+.hero2-des h2 {
+    width: 560px;
+    height: 51px;
+    font-family: Barlow;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.66);
+    line-height: 26px;
+}
+
+.hero2-hands {
+    margin-left: -375px;
+}
+
+.hero2-hands img {
+    width: 500px;
+    height: 500px;
+}
+
+.hero2-des>div {
+    width: 647px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero3 {
+    width: 1441px;
+    height: 653px;
+    background-color: #ffffff;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    justify-content: space-evenly;
+}
+
+.hero3-des {
+    width: 1060px;
+    height: 28px;
+    font-family: Barlow;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.87);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1140px;
+}
+
+.team-des {
+    width: 196px;
+    height: 73px;
+}
+
+.team-des h1 {
+    width: 196px;
+    height: 24px;
+    font-family: Barlow;
+    font-size: 17px;
+    color: #000000;
+    text-decoration: none solid rgb(0, 0, 0);
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.team-des p {
+    width: 196px;
+    height: 24px;
+    font-family: Barlow;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.75);
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team h6 {
+    width: 195px;
+    height: 29px;
+    font-family: Barlow;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none solid rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.team1 img {
+    width: 195px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.team2 img {
+    width: 193px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    /* background-image: nitha-prasad-gynaecologist-in-bangalore-2-32163b.jpeg; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.team3 img {
+    width: 195px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    /* background-image: aparna-subraya-gangoli-surgical-pathologist-in-ban-1fcbe9.jpeg; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.team4 img {
+    width: 194px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    /* background-image: mukta-mahajan-radiology-specialist-in-bangalore-2-f1e558.jpeg; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.arrow-left {
+    width: 52px;
+    height: 52px;
+    background-color: #807b1b;
+    background-size: cover;
+}
+
+.hero4 {
+    /* width: 1439px; */
+    height: 720px;
+    background-image: linear-gradient(90deg, #2d3008 3%, rgba(143, 145, 31, 0.89) 1440px);
+    background-position: center center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero4 div {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 250px;
+    justify-content: space-evenly;
+}
+
+.hero4-des {
+    width: 471px;
+    height: 123px;
+    font-family: Barlow;
+    font-size: 48px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 62px;
+    text-transform: uppercase;
+}
+
+.hero4-para {
+    width: 513px;
+    height: 51px;
+    font-family: Barlow;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.6);
+    line-height: 26px;
+}
+
+.hero4-btn {
+    width: 356px;
+    height: 125px !important;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.hero4-btn p {
+    width: 355px;
+    height: 16px;
+    font-family: Barlow;
+    font-size: 14px;
+    color: #1e323c;
+    text-decoration: none solid rgb(30, 50, 60);
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero5 {
+    display: flex;
+    flex-direction: column;
+    height: 665px;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.hero5-des {
+    width: 1058px;
+    height: 28px;
+    font-family: Barlow;
+    font-size: 24px;
+    color: #464813;
+    text-decoration: none solid rgb(70, 72, 19);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hero5-card {
+    width: 778px;
+    height: 423px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img img {
+    width: 355px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.card-des h1 {
+    width: 331px;
+    height: 28px;
+    font-family: Barlow;
+    font-size: 24px;
+    color: #0f0f0f;
+    text-decoration: none solid rgb(15, 15, 15);
+}
+
+.card-des p {
+    width: 298px;
+    height: 216px;
+    font-family: Barlow;
+    font-size: 15px;
+    color: #666666;
+    text-decoration: none solid rgba(102, 102, 102, 0.75);
+    line-height: 24px;
+}
+
+.footer {
+    /* width: 1440px; */
+    height: 500px;
+    background-color: #807b1b;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.f1>img {
+    width: 152px;
+    height: 67px;
+}
+
+.f1-des {
+    width: 247px;
+    height: 103px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    background-size: cover;
+    box-shadow: 0px 1px 66px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.f1-des-phone, .f1-des-mail {
+    display: flex;
+}
+
+.f1-des-phone h1 {
+    width: 166px;
+    height: 24px;
+    font-family: Barlow;
+    font-size: 14px;
+    color: #807b1b;
+    text-decoration: none solid rgb(128, 123, 27);
+    line-height: 24px;
+}
+
+.f1-des-mail p {
+    width: 166px;
+    height: 24px;
+    font-family: Barlow;
+    font-size: 14px;
+    color: #807b1b;
+    text-decoration: none solid rgb(128, 123, 27);
+    line-height: 24px;
+}
+
+.f1-policy {
+    width: 304px;
+    height: 32px;
+    font-family: Barlow;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.5);
+    line-height: 32px;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 100px; */
+    justify-content: space-evenly;
+}
+
+.f2-li>h1 {
+    width: 196px;
+    height: 24px;
+    font-family: Barlow;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.f2>ul {
+    width: 196px;
+    height: 172px;
+}
+
+.f2-ul>li {
+    font-family: Barlow;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.5);
+    line-height: 29px;
+    text-transform: capitalize;
+}
+
+.media {
+    width: 196px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.media>h1 {
+    font-family: Barlow;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.media-icon {
+    width: 32px;
+    height: 32px;
+    opacity: 0.75;
+    fill: #ffffff;
+    display: flex;
+}
+
+.f2-btn {
+    width: 107px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f2-btn>h1 {
+    width: 41px;
+    height: 12px;
+    font-family: Barlow;
+    font-size: 12px;
+    color: #807b1b;
+    text-decoration: none solid rgb(128, 123, 27);
+    line-height: 12px;
+}
+
+.f3 {
+    /* width: 196px;
+    height: 24px; */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f3>h1 {
+    font-family: Barlow;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.f3>ul {
+    width: 196px;
+    height: 115px;
+}
+
+.f3-li {
+    font-family: Barlow;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.5);
+    line-height: 29px;
+    text-transform: capitalize;
+}
+
+.f4 {
+    /* width: 205px;
+    height: 24px; */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f4>h1 {
+    font-family: Barlow;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.f4>ul {
+    width: 205px;
+    height: 288px;
+}
+
+.f4-li {
+    font-family: Barlow;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.5);
+    line-height: 29px;
+}
+
+.f5 {
+    /* width: 205px;
+    height: 24px; */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f5>h1 {
+    font-family: Barlow;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.f5>ul {
+    width: 205px;
+    height: 288px;
+}
+
+.f5-li {
+    font-family: Barlow;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none solid rgba(255, 255, 255, 0.5);
+    line-height: 29px;
+}
